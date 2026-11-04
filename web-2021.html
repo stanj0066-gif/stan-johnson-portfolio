@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2021 | Stanley Johnson</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page">
+
+    <header class="site-header">
+      <span class="site-name">Stanley Johnson</span>
+      <nav class="site-nav" aria-label="Main">
+        <a href="web-home.html">Home</a>
+        <a href="web-jobs.html" aria-current="page">Jobs</a>
+        <a href="web-contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+
+      <a class="back" href="web-jobs.html"><span aria-hidden="true">←</span> Back to jobs</a>
+
+      <section class="page-title">
+        <p class="eyebrow">WHERE I WORKED IN</p>
+        <h1>2021</h1>
+        <p class="tagline">Wet-Jet · Steeds LLC</p>
+      </section>
+
+      <div class="tabs" role="tablist" aria-label="Year details">
+        <button type="button" class="tab" role="tab" id="tab-photos" aria-controls="panel-photos" aria-selected="true" data-tab="photos">Photos</button>
+        <button type="button" class="tab" role="tab" id="tab-info" aria-controls="panel-info" aria-selected="false" data-tab="info">Info</button>
+      </div>
+
+      <!-- PHOTOS TAB -->
+      <div id="panel-photos" role="tabpanel" aria-labelledby="tab-photos">
+
+        <!-- Replace each src with your photo -->
+        <div class="photo-grid">
+
+
+          <figure class="photo" data-company="wetjet">
+            <img src="wtjet.jpg" alt="Wet-Jet job site">
+            <span class="photo-company">Wet-Jet</span>
+            <figcaption>[Kanarraville, Utah]</figcaption>
+          </figure>
+
+          <figure class="photo" data-company="wetjet">
+            <img src="wj2.jpg" alt="Wet-Jet job site">
+            <span class="photo-company">Wet-Jet</span>
+            <figcaption>[Cedar City, Utah]</figcaption>
+          </figure>
+
+          <figure class="photo" data-company="steeds">
+            <img src="bi1.png" alt="Steeds LLC job site">
+            <span class="photo-company">Steeds LLC</span>
+            <figcaption>[Grand Junction, Colorado]</figcaption>
+          </figure>
+
+          <figure class="photo" data-company="steeds">
+            <img src="bi1.png" alt="Steeds LLC job site">
+            <span class="photo-company">Steeds LLC</span>
+            <figcaption>[Grand Junction, Colorado]</figcaption>
+          </figure>
+
+        </div>
+      </div>
+
+      <!-- INFO TAB -->
+      <div id="panel-info" role="tabpanel" aria-labelledby="tab-info" hidden>
+
+        <article class="info-card">
+          <h2>Wet-Jet</h2>
+          <dl>
+            <dt>Role</dt><dd>[YOUR JOB TITLE]</dd>
+            <dt>How long</dt><dd>[HOW LONG YOU WORKED THERE]</dd>
+            <dt>Where</dt><dd>[CITY, STATE]</dd>
+            <dt>What I did</dt><dd>[I Started working in a paint shop for Wet Jet, i went on to help connect frams and operate a forklift in their yard, i then moved to Colorado for a bit and worked for SteedsLLC doing Residential Electrical]</dd>
+          </dl>
+        </article>
+
+        <article class="info-card">
+          <h2>Steeds LLC</h2>
+          <dl>
+            <dt>Role</dt><dd>[YOUR JOB TITLE]</dd>
+            <dt>How long</dt><dd>[HOW LONG YOU WORKED THERE]</dd>
+            <dt>Where</dt><dd>[CITY, STATE]</dd>
+            <dt>What I did</dt><dd>[A FEW SENTENCES ABOUT THE WORK YOU DID]</dd>
+          </dl>
+        </article>
+
+      </div>
+
+    </main>
+  </div>
+
+  <script src="year.js"></script>
+</body>
+</html>
